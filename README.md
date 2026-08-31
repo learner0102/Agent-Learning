@@ -1,4 +1,4 @@
-# RAG Agent 智能问答系统（目前仍在学习）
+# RAG Agent 智能问答系统（目前仍在学习[基于Hello-Agents]）
 
 基于 **LangGraph + LangChain** 的 RAG 智能问答 Agent，集成多步 Agent 决策、知识库检索增强（RAG）与分层记忆系统。模型接入通义千问（Qwen），Embedding 使用本地 Qwen3-Embedding-0.6B，全程本地化部署（CUDA）。
 
