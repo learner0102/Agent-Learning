@@ -1,0 +1,14 @@
+with open('main.py','r',encoding='utf-8') as f:
+    text=f.read()
+start=text.find('if question.startswith(\"#save\")')
+print('start', start)
+print(ascii(text[start-100:start+700]))
+
+with open('agent.py','r',encoding='utf-8') as f:
+    atext=f.read()
+m = __import__('re').search(r'        prompt = f\'\'\'.*?\'\'\'', atext, __import__('re').DOTALL)
+if m:
+    print('agent prompt found')
+    print(ascii(m.group(0)))
+else:
+    print('agent prompt not found')

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "case_01_digital_twin",
+    "question": "数字孪生技术引入后，新产品研发周期缩短了多少？",
+    "expected_keywords": ["研发周期缩短40%", "设备非计划停机时间减少55%", "整体设备效率"],
+    "reference_answer": "某汽车制造企业引入数字孪生后，新产品研发周期缩短40%，设备非计划停机时间减少55%，整体设备效率（OEE）提升12%。"
+  },
+  {
+    "id": "case_02_5g",
+    "question": "5G通信技术的峰值速率能达到多少？",
+    "expected_keywords": ["10Gbps", "eMBB", "毫秒级延迟"],
+    "reference_answer": "5G峰值速率可达10Gbps，支持eMBB、URLLC、mMTC三大场景，延迟为毫秒级。"
+  },
+  {
+    "id": "case_03_6g",
+    "question": "6G技术标准化预计什么时候启动？",
+    "expected_keywords": ["2028年", "2030年", "太赫兹"],
+    "reference_answer": "6G标准化预计在2028年左右启动，2030年实现商用部署，目标频段为太赫兹。"
+  },
+  {
+    "id": "case_04_multimodal",
+    "question": "多模态大模型在视觉问答（VQA）任务上的准确率是多少？",
+    "expected_keywords": ["85%", "CLIP", "GPT-4o"],
+    "reference_answer": "多模态大模型在VQA任务上的准确率已超过85%，接近人类水平。"
+  },
+  {
+    "id": "case_05_quantum",
+    "question": "谷歌的Sycamore处理器实现了多少量子比特的量子霸权实验？",
+    "expected_keywords": ["Sycamore", "53量子比特", "Shor算法"],
+    "reference_answer": "谷歌的Sycamore处理器实现了53量子比特的量子霸权实验。"
+  },
+  {
+    "id": "case_06_blockchain_supply",
+    "question": "沃尔玛使用IBM Food Trust平台后，芒果溯源时间缩短到了多少？",
+    "expected_keywords": ["Food Trust", "6.5天", "2.2秒"],
+    "reference_answer": "沃尔玛使用IBM Food Trust平台后将芒果溯源时间从6.5天缩短至2.2秒。"
+  },
+  {
+    "id": "case_07_blockchain_finance",
+    "question": "基于稳定币的区块链支付网络把跨境汇款手续费降到了多少？",
+    "expected_keywords": ["跨境汇款", "0.5%", "稳定币"],
+    "reference_answer": "跨境汇款时间从2-5天缩短至数分钟，手续费从5%-10%降至0.5%以下。"
+  },
+  {
+    "id": "case_08_ai_drug",
+    "question": "AI技术将新药发现周期从多久缩短到多久？",
+    "expected_keywords": ["4-5年", "1-2年", "心力衰竭"],
+    "reference_answer": "AI将新药发现周期从传统的4-5年缩短至1-2年，大幅降低研发成本。"
+  },
+  {
+    "id": "case_09_crispr",
+    "question": "CRISPR基因编辑在哪些血液疾病的临床试验中取得了突破？",
+    "expected_keywords": ["β-地中海贫血", "镰刀型贫血", "脱靶效应"],
+    "reference_answer": "CRISPR在β-地中海贫血、镰刀型贫血等血液疾病的临床试验中取得突破性进展，部分患者实现症状完全缓解。"
+  },
+  {
+    "id": "case_10_bci",
+    "question": "侵入式脑机接口帮助瘫痪患者实现文字输入的速度是多少？",
+    "expected_keywords": ["每分钟8个字符", "Neuralink", "90%-95%"],
+    "reference_answer": "侵入式BCI实现了文字输入，速度达每分钟8个字符，信号解码字符准确率在90%-95%之间。"
+  },
+  {
+    "id": "case_11_vr_edu",
+    "question": "VR培训能使操作失误率下降多少？",
+    "expected_keywords": ["失误率下降60%", "培训效率提升50%", "虚拟现实"],
+    "reference_answer": "VR培训能使操作失误率下降60%以上，培训效率提升50%。"
+  },
+  {
+    "id": "case_12_edge_cloud",
+    "question": "云边协同中合理卸载策略能降低多少平均响应延迟？",
+    "expected_keywords": ["响应延迟70%", "带宽消耗约45%", "边缘计算"],
+    "reference_answer": "合理卸载策略可降低平均响应延迟70%以上，同时减少骨干网络带宽消耗约45%。"
+  },
+  {
+    "id": "case_13_new_energy",
+    "question": "钙钛矿太阳能电池的实验室效率突破了多少？",
+    "expected_keywords": ["33.7%", "钙钛矿", "绿氢"],
+    "reference_answer": "钙钛矿太阳能电池实验室效率突破33.7%，有望进一步提升光电转换效率。"
+  },
+  {
+    "id": "case_14_auto_drive",
+    "question": "自动驾驶中3D目标检测算法对障碍物的检测精度是多少？",
+    "expected_keywords": ["95%", "PointPillars", "毫米波雷达"],
+    "reference_answer": "点云语义分割和3D目标检测算法（如PointPillars、CenterPoint）对车辆、行人、障碍物的检测精度超过95%。"
+  }
+]
